@@ -3,8 +3,7 @@ import os
 import time
 import socket
 import random
-#Code Time
-init (autoreset =True )#line:3
+
 def startMessage ():#line:7
     OO0O0OO0OOO0OO0O0 =input (Fore .YELLOW +"Enter Code To Unlock The Tool : ")#line:8
     OOOO0OO000OO0OOOO ="ILOVEU"#line:9
